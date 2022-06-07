@@ -18,7 +18,7 @@ const AWS=require('aws-sdk');
       "headers": {
       "Content-Type": "application/json"
       },
-      'statusCode': 400,
+      'statusCode': 200,
       'body': JSON.stringify("Data Submitted")
       };
    
